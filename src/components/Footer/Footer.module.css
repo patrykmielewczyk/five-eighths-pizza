@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    position: fixed;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #252526;
+}
+
+.wrapper > p {
+    text-transform: uppercase;
+}
+
+.copyText {
+    margin-left: 1rem;
+}
+
+.followText {
+    margin-left: 70%;
+}
+
+.socialIcon {
+    padding: 10px 20;
+    scale: 0.50;
+    filter: invert(100%);
+}
+
+.socialIcon:hover {
+    filter: invert(50%);
+}
+
+@media screen and (max-width: 1000px) {
+    .followText {
+        margin-left: 25rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .followText {
+        margin-left: 5rem;
+    }
+}
