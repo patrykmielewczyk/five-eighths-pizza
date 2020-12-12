@@ -11,7 +11,12 @@
     margin-left: 60%;
 }
 
+.navLink {
+  text-decoration: none;
+}
+
 .navButton{
+  outline: none;
   color:rgb(255, 255, 255);
   padding:10px 20px;
   font-size:12px;

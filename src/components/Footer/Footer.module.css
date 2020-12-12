@@ -1,9 +1,9 @@
 .wrapper {
     display: flex;
-    position: fixed;
-    height: auto;
+    position: relative;
     left: 0;
     bottom: 0;
+    margin-bottom: 0;
     width: 100%;
     background-color: #252526;
 }
@@ -30,6 +30,10 @@
     filter: invert(50%);
 }
 
+a {
+    outline: none;
+}
+
 @media screen and (max-width: 1000px) {
     .followText {
         margin-left: 25rem;
@@ -39,5 +43,8 @@
 @media screen and (max-width: 900px) {
     .followText {
         margin-left: 5rem;
+    }
+    .wrapper {
+        margin-top: 5rem;
     }
 }

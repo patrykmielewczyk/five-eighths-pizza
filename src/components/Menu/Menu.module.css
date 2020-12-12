@@ -1,0 +1,40 @@
+.wrapper {
+    margin-left: 36%;
+}
+.list {
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    width: 200px;
+    height: auto;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.image {
+    width: 200px;
+    height: 100px;
+}
+
+.button {
+    cursor: pointer;
+    width: auto;
+    text-transform: uppercase;
+    color: white;
+    border: solid 1px;
+    border-radius: 2px;
+    background-color: #252526;
+}
+
+@media screen and (max-width:900px) {
+    .wrapper {
+        margin-left: 15rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .wrapper {
+        margin-left: 5rem;
+    }
+}
