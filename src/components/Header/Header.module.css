@@ -34,7 +34,7 @@
 
 .image {
     filter: invert(100%);
-    position: fixed;
+    position: absolute;
     width: 35px;
     height: 35px;
     z-index: 1;

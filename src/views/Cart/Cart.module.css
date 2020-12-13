@@ -1,12 +1,87 @@
+.table {
+    display: flex;
+    list-style: none;
+}
+
+.tableItem::after {
+    display: flex;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.tableItem {
+    position: relative;
+    margin-left: 11rem;
+}
+
 .wrapper {
-    padding: 1rem;
-    width: 300px;
-    height: 150px;
-    display: inline-block;
     border: solid;
-    margin-left: 40%;
+    border-radius: 5px;
+}
+
+.item {
+    display: flex;
+}
+
+.item > p {
+    margin-left: 8rem;
+}
+
+.item > span {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.item > span:hover {
+    color: red;
 }
 
 .total {
-    margin-left: 40%;
+    margin-left: 45%; 
 }
+
+.orderButton {
+    font-family: 'Fjalla One', sans-serif;
+    cursor: pointer;
+    width: max-content;
+    height: 30px;
+    text-transform: uppercase;
+    color: white;
+    border: solid 1px;
+    border-radius: 2px;
+    background-color: #252526;
+}
+.orderButton:hover {
+    background-color: white;
+    color: #252526;
+    border-color: #252526;
+}
+
+.quantityButton {
+    background: none;
+    color: white;
+    margin: 0 1rem 0 1rem;
+    cursor: pointer;
+    border: solid;
+    border-radius: 5px;
+}
+
+.quantityButton:hover {
+    background: white;
+    color:  #252526;
+}
+
+@media screen and (max-width: 600px) {
+    .tableItem {
+        margin-left: 4rem;
+    }
+    .item > p {
+        margin-left: 3rem;
+    }
+}
+
