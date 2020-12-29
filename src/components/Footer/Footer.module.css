@@ -1,51 +1,51 @@
 .wrapper {
-    display: flex;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    margin-bottom: 0;
-    margin-top: 10rem;
-    width: 100%;
-    background-color: #252526;
+  display: flex;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  margin-top: 10rem;
+  width: 100%;
+  background-color: #252526;
 }
 
 .wrapper > p {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .copyText {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .followText {
-    margin-left: 70%;
+  margin-left: 70%;
 }
 
 .socialIcon {
-    padding: 10px 20;
-    scale: 0.50;
-    filter: invert(100%);
+  padding: 10px 20;
+  scale: 0.5;
+  filter: invert(100%);
 }
 
 .socialIcon:hover {
-    filter: invert(50%);
+  filter: invert(50%);
 }
 
 a {
-    outline: none;
+  outline: none;
 }
 
 @media screen and (max-width: 1000px) {
-    .followText {
-        margin-left: 25rem;
-    }
+  .followText {
+    margin-left: 25rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .followText {
-        margin-left: 5rem;
-    }
-    .wrapper {
-        margin-top: 5rem;
-    }
+  .followText {
+    margin-left: 5rem;
+  }
+  .wrapper {
+    margin-top: 5rem;
+  }
 }
