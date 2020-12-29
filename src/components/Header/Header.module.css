@@ -1,55 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
 
 .wrapper {
-    color: white;
-    display: flex;
-    background: #252526;
-    width: 100%;
-    height: 100px;
+  color: white;
+  display: flex;
+  background: #252526;
+  width: 100%;
+  height: 100px;
 }
 
 .logo {
-    margin-left: 11rem;
-    margin-top: 2rem;
-    padding-bottom: 1rem;
-    filter: invert(100%);
+  margin-left: 11rem;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  filter: invert(100%);
 }
 
 .name {
-    font-family: 'East Sea Dokdo', cursive;
-    position: absolute;
-    margin-left: 1rem;
-    font-size: 2rem;
+  font-family: "East Sea Dokdo", cursive;
+  position: absolute;
+  margin-left: 1rem;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 600px) {
-    .wrapper{
-        padding-bottom: 10px;
-    }
+  .wrapper {
+    padding-bottom: 10px;
+  }
 }
 
 .cart {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 .image {
-    filter: invert(100%);
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    z-index: 1;
+  filter: invert(100%);
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  z-index: 1;
 }
 
 .value {
-    width: 18px;
-    text-align: center;
-    position: absolute;
-    margin-top: 1.5rem;
-    margin-left: 1rem;
-    background-color: red;
-    color: whitesmoke;
-    border-radius: 50%;
-    z-index: 2;
-    text-decoration: none;
+  width: 18px;
+  text-align: center;
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  background-color: red;
+  color: whitesmoke;
+  border-radius: 50%;
+  z-index: 2;
+  text-decoration: none;
 }
-

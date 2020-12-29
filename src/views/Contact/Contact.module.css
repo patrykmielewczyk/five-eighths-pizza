@@ -1,19 +1,19 @@
 .wrapper {
-    display: flex;
-    position: relative;
-    margin-left: 5rem;
-    margin-top: 5rem;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  position: relative;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .wrapper > a {
-    text-decoration: none;
-    color: #F2F2F2;
-    cursor: pointer;
+  text-decoration: none;
+  color: #f2f2f2;
+  cursor: pointer;
 }
 
 .image {
-    width: 500px;
-    height: 400px;
+  width: 500px;
+  height: 400px;
 }

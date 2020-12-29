@@ -1,49 +1,49 @@
 .wrapper {
-    margin-left: 36%;
-    text-align: center;
+  margin-left: 36%;
+  text-align: center;
 }
 .list {
-    padding: 5px;
-    margin: 5px;
-    list-style: none;
-    width: 200px;
-    height: auto;
-    border: solid;
-    border-radius: 10px;
-    border-color: white;
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
+  width: 200px;
+  height: auto;
+  border: solid;
+  border-radius: 10px;
+  border-color: white;
 }
 
 .image {
-    width: 200px;
-    height: 100px;
+  width: 200px;
+  height: 100px;
 }
 
 .button {
-    font-family: 'Fjalla One', sans-serif;
-    cursor: pointer;
-    width: max-content;
-    height: 30px;
-    text-transform: uppercase;
-    color: white;
-    border: solid 1px;
-    border-radius: 2px;
-    background-color: #252526;
+  font-family: "Fjalla One", sans-serif;
+  cursor: pointer;
+  width: max-content;
+  height: 30px;
+  text-transform: uppercase;
+  color: white;
+  border: solid 1px;
+  border-radius: 2px;
+  background-color: #252526;
 }
 
 .button:hover {
-    background-color: white;
-    color: #252526;
-    border-color: #252526;
+  background-color: white;
+  color: #252526;
+  border-color: #252526;
 }
 
-@media screen and (max-width:900px) {
-    .wrapper {
-        margin-left: 15rem;
-    }
+@media screen and (max-width: 900px) {
+  .wrapper {
+    margin-left: 15rem;
+  }
 }
 
-@media screen and (max-width:600px) {
-    .wrapper {
-        margin-left: 5rem;
-    }
+@media screen and (max-width: 600px) {
+  .wrapper {
+    margin-left: 5rem;
+  }
 }
